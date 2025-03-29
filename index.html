@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS (link to the external styles.css) -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sarika's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>Hi, I'm Sarika Reddy</h1>
+            <p>Web Developer | DSA Enthusiast | Carnatic Music Lover</p>
+            <a href="#about" class="btn btn-custom">Learn More</a>
+
+            <!-- Social Media Icons -->
+            <div class="mt-4">
+                <a href="https://github.com/SarikaReddy20" target="_blank" class="btn btn-custom-logo btn-sm mx-2">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sarikareddy20/" target="_blank"
+                    class="btn btn-custom-logo btn-sm mx-2">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="Sarika.jpg" alt="Sarika's Profile Picture" class="profile-img mb-4">
+                </div>
+                <div class="col-md-8">
+                    <p>I'm a 2nd-year BE student at CBIT, passionate about web technologies and problem-solving. My
+                        primary focus is on mastering Data Structures and Algorithms (DSA), and I’m deeply interested in
+                        inventing new things related to mathematics, especially based on graphs. I enjoy applying my
+                        creativity and logic to build meaningful projects that solve real-world problems. Beyond coding,
+                        I have a deep love for Carnatic music, which inspires my creativity and sharpens my analytical
+                        skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="row">
+                <!-- Card for Chaitanya Bharathi Institute of Technology -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="https://www.cbit.ac.in/" target="_blank">
+                                <img src="cbit.jpg" class="card-img-top" alt="CBIT">
+                            </a>
+                            <h4 class="card-title cbit">Chaitanya Bharathi Institute of Technology</h4>
+                            <p class="card-text">B.E. in Computer Science</p>
+                            <h6>Relevant Coursework</h6>
+                            <ul>
+                                <li>Python</li>
+                                <li>Object-Oriented Programming with Python</li>
+                                <li>Data Structures and Algorithms</li>
+                                <li>Web Development</li>
+                                <li>Database Management System</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card for Narayana Junior College -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="https://www.narayanagroup.com/" target="_blank">
+                                <img src="narayana.png" class="card-img-top nara-img" alt="Narayana">
+                            </a>
+                            <h4 class="card-title narayana">Narayana Junior College</h4>
+                            <p class="card-text">MPC student</p>
+                            <h6>Relevant Coursework</h6>
+                            <ul>
+                                <li>Mathematics</li>
+                                <li>Physics</li>
+                                <li>Chemistry</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Skill Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML5</h5>
+                            <p class="card-text">Proficient in creating structured web pages with HTML5.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS3</h5>
+                            <p class="card-text">Skilled in styling web pages and making them visually appealing using
+                                CSS3.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap</h5>
+                            <p class="card-text">Experienced in creating responsive web layouts with Bootstrap
+                                framework.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">Experienced in adding interactivity to websites using JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ReactJS</h5>
+                            <p class="card-text">Proficient in building dynamic user interfaces using React.js.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL</h5>
+                            <p class="card-text">Proficient in working with SQL for managing and querying relational
+                                databases.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Android Development</h5>
+                            <p class="card-text">Experienced in building mobile applications for Android using Java and
+                                Kotlin.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill Card 7 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">DSA (Data Structures & Algorithms)</h5>
+                            <p class="card-text">Strong understanding of data structures and algorithms for
+                                problem-solving and optimization.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Non-Technical Skills Section -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Communication</h5>
+                            <p class="card-text">Skilled in clear and effective communication, both written and verbal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Problem-Solving</h5>
+                            <p class="card-text">Strong analytical and critical thinking skills to identify solutions to
+                                complex problems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Teamwork</h5>
+                            <p class="card-text">Able to collaborate effectively with team members to achieve common
+                                goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <a href="https://github.com/SarikaReddy20/Interactive-Graphing-Calculus-Tool">
+                            <img src="pro1.jpg" class="card-img-top" alt="Project 1">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Intersection & Root Finder</h5>
+                            <p class="card-text">A project to find the intersection of graphs and roots of equations.
+                            </p>
+                            <a href="https://github.com/SarikaReddy20/Interactive-Graphing-Calculus-Tool"
+                                class="card-link">Git Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <a href="https://github.com/SarikaReddy20/Learnify">
+                            <img src="pro2.png" class="card-img-top" alt="Project 2">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Learnify</h5>
+                            <p class="card-text">A front-end based project using HTML, CSS, and Bootstrap.</p>
+                            <a href="https://github.com/SarikaReddy20/Learnify" class="card-link">Git Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <a href="#">
+                            <img src="pro3.png" class="card-img-top" alt="Project 3">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Portfolio</h5>
+                            <p class="card-text">A personal portfolio to showcase my skills and projects.</p>
+                            <a href="#" class="card-link">Git Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <a href="#">
+                            <img src="pro4.png" class="card-img-top" alt="Weather App">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Weather App (Android)</h5>
+                            <p class="card-text">An Android application to check the weather forecast by integrating an
+                                external API.</p>
+                            <a href="#" class="card-link">Git Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Resume Download -->
+<section id="resume" class="section-padding text-center">
+    <h2>Download My Resume</h2>
+    <a href="Sarika_Reddy_Resume.pdf" class="btn btn-custom" target="_blank">Resume</a>
+</section>
+
+<button id="backToTop" class="btn btn-custom">↑</button>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to send me a message!</p>
+            <a href="mailto:pittasarikareddy@gmail.com" class="btn btn-custom">Email Me</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sarika Reddy. All rights reserved.</p>
+        <div>
+            <a href="https://github.com/SarikaReddy20" target="_blank" class="btn btn-custom-logo btn-sm mx-2">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sarikareddy20/" target="_blank"
+                class="btn btn-custom-logo btn-sm mx-2">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script>
+        const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            backToTop.style.display = 'block';
+        } else {
+            backToTop.style.display = 'none';
+        }
+    });
+
+    backToTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
+
+</body>
+
+</html>
