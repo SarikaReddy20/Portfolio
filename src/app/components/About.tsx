@@ -1,3 +1,4 @@
+import sarikaImage from "/sarika.jpg";
 import { ScrollReveal } from "./ScrollReveal";
 import { Code, Sparkles, Heart } from "lucide-react";
 
@@ -37,7 +38,7 @@ export function About() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary to-indigo-500 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-500"></div>
 
                 <img
-                  src="/sarika.jpg"
+                  src={sarikaImage}
                   alt="Sarika Reddy"
                   className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-square"
                 />

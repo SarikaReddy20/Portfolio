@@ -30,6 +30,19 @@ To create a production build:
 npm run build
 ```
 
+### GitHub Pages deployment
+
+This project is configured for GitHub Pages under `https://<username>.github.io/Portfolio/`.
+
+Install the deployment helper and deploy:
+
+```bash
+npm install --save-dev gh-pages
+npm run deploy
+```
+
+If your repository name is not `Portfolio`, update `vite.config.ts` `base` to match the repo path.
+
 ## Sections
 
 - Home / Hero

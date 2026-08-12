@@ -1,3 +1,4 @@
+import resumePdf from "/Sarika_Reddy_Resume.pdf";
 import { Download, FileText, Sparkles } from "lucide-react";
 import { ScrollReveal } from "./ScrollReveal";
 
@@ -58,7 +59,7 @@ export function Resume() {
                 {/* Download Button */}
                 <div className="flex justify-center">
                   <a
-                    href="/Sarika_Reddy_Resume.pdf"
+                    href={resumePdf}
                     download
                     className="group/btn relative inline-flex items-center gap-3 bg-white text-[#2563EB] px-8 py-4 rounded-xl hover:bg-gray-50 transition-all shadow-xl hover:shadow-2xl font-semibold hover:scale-105 duration-300"
                   >
