@@ -1,8 +1,8 @@
-import { Github, Linkedin, Heart, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, Heart, ArrowUp } from "lucide-react";
 
 export function Footer() {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -21,7 +21,9 @@ export function Footer() {
             <h3 className="text-2xl font-bold mb-2 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
               Sarika Reddy
             </h3>
-            <p className="text-gray-400 text-sm">Building the future, one line of code at a time</p>
+            <p className="text-gray-400 text-sm">
+              Building the future, one line of code at a time
+            </p>
           </div>
 
           {/* Social Links */}
@@ -32,15 +34,21 @@ export function Footer() {
               rel="noopener noreferrer"
               className="group p-4 bg-white/10 rounded-full hover:bg-gradient-to-br hover:from-blue-500 hover:to-purple-500 transition-all hover:scale-110 backdrop-blur-sm"
             >
-              <Github size={20} className="group-hover:rotate-12 transition-transform" />
+              <Github
+                size={20}
+                className="group-hover:rotate-12 transition-transform"
+              />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sarikareddy20/"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 bg-white/10 rounded-full hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-500 transition-all hover:scale-110 backdrop-blur-sm"
             >
-              <Linkedin size={20} className="group-hover:rotate-12 transition-transform" />
+              <Linkedin
+                size={20}
+                className="group-hover:rotate-12 transition-transform"
+              />
             </a>
           </div>
 
@@ -51,7 +59,10 @@ export function Footer() {
           <div className="text-center">
             <p className="flex items-center gap-2 text-gray-400 text-sm">
               © 2026 Sarika Reddy. Crafted with
-              <Heart size={16} className="text-red-400 fill-red-400 animate-pulse" />
+              <Heart
+                size={16}
+                className="text-red-400 fill-red-400 animate-pulse"
+              />
               and lots of coffee ☕
             </p>
           </div>
@@ -63,7 +74,10 @@ export function Footer() {
           className="absolute bottom-6 right-6 p-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full shadow-lg hover:shadow-2xl hover:scale-110 transition-all group"
           aria-label="Scroll to top"
         >
-          <ArrowUp size={20} className="group-hover:-translate-y-1 transition-transform" />
+          <ArrowUp
+            size={20}
+            className="group-hover:-translate-y-1 transition-transform"
+          />
         </button>
       </div>
     </footer>

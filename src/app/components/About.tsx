@@ -56,46 +56,42 @@ export function About() {
               </div>
 
               <h3 className="text-3xl font-bold text-foreground">
-                Studying at CBIT
+                B.E. Computer Science at CBIT
               </h3>
 
               <p className="text-muted-foreground leading-relaxed">
-                I'm a passionate Computer Science student at Chaitanya Bharathi
-                Institute of Technology (CBIT), with a strong interest in web
-                development and data structures & algorithms.
+                I'm a Computer Science student at Chaitanya Bharathi Institute
+                of Technology with a strong foundation in software engineering,
+                distributed systems, and security.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                I love solving complex problems and building innovative
-                solutions that make a difference. My journey in technology has
-                been driven by curiosity and a desire to create meaningful
-                applications that enhance user experiences.
+                I build backend and full-stack solutions using Java, Spring
+                Boot, Node.js, React, and SQL. My work focuses on clean
+                architecture, scalable systems, and reliable user experiences.
               </p>
 
               <p className="text-muted-foreground leading-relaxed flex items-center gap-2">
-                When I'm not coding, you'll find me exploring new technologies,
-                participating in coding competitions, and constantly learning to
-                improve my skills.
+                Recently interned at JPMorgan Chase & Co. and delivered
+                hackathon solutions for real-world problems while continuing to
+                learn and grow in cloud and security domains.
                 <Heart size={18} className="text-red-500 fill-red-500" />
               </p>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 pt-6">
                 <div className="text-center p-4 bg-card rounded-xl border border-border">
-                  <div className="text-2xl font-bold text-primary">5+</div>
-                  <div className="text-sm text-muted-foreground">Projects</div>
-                </div>
-
-                <div className="text-center p-4 bg-card rounded-xl border border-border">
-                  <div className="text-2xl font-bold text-primary">8+</div>
-                  <div className="text-sm text-muted-foreground">Skills</div>
-                </div>
-
-                <div className="text-center p-4 bg-card rounded-xl border border-border">
-                  <div className="text-2xl font-bold text-primary">100%</div>
-                  <div className="text-sm text-muted-foreground">
-                    Dedication
+                  <div className="text-2xl font-bold text-primary">
+                    JPMorgan
                   </div>
+                  <div className="text-sm text-muted-foreground">
+                    Internship
+                  </div>
+                </div>
+
+                <div className="text-center p-4 bg-card rounded-xl border border-border">
+                  <div className="text-2xl font-bold text-primary">AWS</div>
+                  <div className="text-sm text-muted-foreground">Certified</div>
                 </div>
               </div>
             </div>

@@ -25,8 +25,11 @@ export function Navigation() {
   const menuItems = [
     { label: "Home", id: "hero" },
     { label: "About", id: "about" },
+    { label: "Experience", id: "experience" },
     { label: "Skills", id: "skills" },
     { label: "Projects", id: "projects" },
+    { label: "Certifications", id: "certifications" },
+    { label: "Achievements", id: "achievements" },
     { label: "Resume", id: "resume" },
     { label: "Contact", id: "contact" },
   ];

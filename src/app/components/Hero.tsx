@@ -97,8 +97,8 @@ export function Hero() {
 
           {/* Tagline with stagger animation */}
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-1000">
-            Passionate Computer Science student building innovative solutions
-            through clean code and creative problem-solving
+            B.E. Computer Science student at CBIT specializing in backend
+            systems, security, and modern full-stack development.
           </p>
 
           {/* CTA Buttons with hover effects */}
@@ -139,7 +139,7 @@ export function Hero() {
               />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sarikareddy20/"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 bg-white rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 hover:rotate-6"

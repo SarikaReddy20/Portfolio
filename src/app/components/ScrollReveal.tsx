@@ -1,11 +1,16 @@
-import { useEffect, useRef, ReactNode } from 'react';
+import { useEffect, useRef, ReactNode } from "react";
 
 interface ScrollRevealProps {
   children: ReactNode;
   delay?: number;
+  className?: string;
 }
 
-export function ScrollReveal({ children, delay = 0 }: ScrollRevealProps) {
+export function ScrollReveal({
+  children,
+  delay = 0,
+  className = "",
+}: ScrollRevealProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -14,12 +19,12 @@ export function ScrollReveal({ children, delay = 0 }: ScrollRevealProps) {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setTimeout(() => {
-              entry.target.classList.add('reveal-visible');
+              entry.target.classList.add("reveal-visible");
             }, delay);
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (ref.current) {
@@ -34,7 +39,7 @@ export function ScrollReveal({ children, delay = 0 }: ScrollRevealProps) {
   }, [delay]);
 
   return (
-    <div ref={ref} className="reveal">
+    <div ref={ref} className={`reveal ${className}`}>
       {children}
     </div>
   );
